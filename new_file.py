@@ -11,7 +11,7 @@ scroll_content = driver.find_element(By.CLASS_NAME, 'product-name')
 scroll_content.click()
 
 title = driver.find_element(By.XPATH, "/html/body/section[1]/div/div/div/div/div/h1").text # title
-elements = driver.find_element(By.XPATH, "/html/body/section[3]/div/div/div[1]/table/tbody").text # all elements in list
+elements = driver.find_element(By.XPATH, "/html/body/section[3]/div/div/div[1]/table/tbody").text # all elements
 some_el = driver.find_element(By.XPATH, "/html/body/section[3]/div/div/div[1]/table/tbody/tr[1]/td[1]").text # name of characteristic
 value = driver.find_element(By.XPATH, "/html/body/section[3]/div/div/div[1]/table/tbody/tr[1]/td[2]").text # value
 
