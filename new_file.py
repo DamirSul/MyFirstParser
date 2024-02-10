@@ -32,7 +32,7 @@ sheet["A2"].font = Font(bold=True)
 
 # Цикл для записи значений в ячейки
 j = 3
-while j < 22:
+while j < len(elements.split('\n')) + 2:
     # Цикл для получения значений из XPATH
     for i in range(1, len_list_of_elements, 2):
 
